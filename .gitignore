@@ -28,6 +28,5 @@
 *.app
 
 # IDE specific files
-*.dev
 *.layout
 *.win
