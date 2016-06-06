@@ -18,7 +18,15 @@ int main(int argc, char *argv[])
     y = *p;   /* Now y contains the content of the variable to which p points 
                  to, i.e. to the variable with address p (x in this case). */
 
+    /* The operator '*' is called 'dereference operator'.*/
+
     printf("y: %i\n",y);    /* Yields 5, because x was initialized to 5. */
+
+    int *q;
+
+    printf("*q: %i\n", *q); /* Dereferencing an uninitialized pointer returns
+                               and unknown value that happens to be there in 
+                               memory. Never do that. */
 
     /* You can play the same game with pointers of pointers. */
 
