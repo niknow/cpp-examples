@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
 {
     int x[3];          /* Declares an array of size 3. */
     int y[3]={4,5,6};  /* Arrays can be initialized too. */
-    int z[3][4];       /* Aarrays can have any number of dimensions. */
+    int z[3][4];       /* Arrays can have any number of dimensions. */
     int A[] = {1,2,3}; /* Arrays can be sized automatically by initialization. */
 
     /* Assignment of values to a declared array. */
