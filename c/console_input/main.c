@@ -6,8 +6,8 @@
 int main(int argc, char *argv[])
 {
 
-    /* Single character input works like this. This loop echos any single
-       character input, */
+    /* Old school single character input works like this. This loop 
+       echos any char. */
     char c;
     printf("Enter a character and hit 'Return' to mirror it (and a '.' to quit). \n");
     do {
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     } while (c != '.');
     printf("\n");
 
-    /* More advanced input using 'scanf'. */
+    /* More advanced input using 'scanf': */
     char line[100];
     int a;
     float x;
