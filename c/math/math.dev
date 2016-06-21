@@ -1,6 +1,6 @@
 [Project]
-FileName=cmathdatetimerandom.dev
-Name=cmathdatetimerandom
+FileName=math.dev
+Name=math
 UnitCount=1
 Type=1
 Ver=1
@@ -18,7 +18,7 @@ Icon=
 ExeOutput=
 ObjectOutput=
 OverrideOutput=0
-OverrideOutputName=
+OverrideOutputName=math.exe
 HostApplication=
 Folders=
 CommandLine=
@@ -27,7 +27,7 @@ CustomMakefile=
 IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
-CompilerSettings=
+CompilerSettings=0000000000000001000000
 
 [Unit1]
 FileName=main.c
