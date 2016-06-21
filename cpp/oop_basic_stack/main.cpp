@@ -4,7 +4,6 @@
 /* One of the main features of C++ is the support of OOP, the object oriented
    programming paradigm. This example implements a stack in an OOP fashion. */
 
-
 #define SIZE 100        // The stack can store up to 100 members.
 
 class stack {           // Declare a class like this.
