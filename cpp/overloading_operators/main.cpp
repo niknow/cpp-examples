@@ -37,7 +37,7 @@ vect operator-(vect ob1, vect ob2) {
 vect vect::operator=(vect ob2) {
     x = ob2.x;
     y = ob2.y;
-    return *this;   // 'this' is a pointer to this object.
+    return *this;   // 'this' is a pointer to this object, i.e. this specific instance of the class.
 }
 
 vect vect::operator++() {
