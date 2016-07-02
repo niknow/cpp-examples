@@ -54,7 +54,6 @@ int main(int argc, char *argv[])
     replace(5) = 'X'; // Now replace(5) is a reference to the 5-th element of s.
     std::cout << s << std::endl; // Gives 'HelloXWorld'.
 
-    system("PAUSE");
     return EXIT_SUCCESS;
 }
 

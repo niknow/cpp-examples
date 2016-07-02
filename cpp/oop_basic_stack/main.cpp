@@ -61,7 +61,6 @@ int main(int argc, char *argv[])
     s2 = s1;    // By default this creates a deep copy.
     std::cout << s1.pop() << s2.pop() << std::endl;
 
-    system("PAUSE");
     return EXIT_SUCCESS;
 }
 
