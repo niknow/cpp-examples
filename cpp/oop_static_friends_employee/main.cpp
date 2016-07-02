@@ -68,6 +68,9 @@ employee replace_bob(employee e) {
 		new_guy.set_name("new_guy");
         return new_guy;
     }
+	else {
+		return e;
+	}
 }
 
 int main(int argc, char *argv[]) {
