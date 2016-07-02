@@ -29,3 +29,4 @@ This repository contains examples of C/C++ programs that document some feature o
 * [References](https://github.com/niknow/cpp-examples/blob/master/cpp/references/main.cpp)
 * [Dynamic Arrays](https://github.com/niknow/cpp-examples/blob/master/cpp/dynamic_allocation/main.cpp)
 * [Default Arguments and Overloading Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/overloading_functions/main.cpp)
+* [Overloading Operators](https://github.com/niknow/cpp-examples/blob/master/cpp/overloading_operators/main.cpp)
