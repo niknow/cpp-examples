@@ -55,7 +55,7 @@ void reset_id(employee e) {
 }
 
 void employee::set_name(char *c) {
-    strcpy(name, c);
+    strcpy_s(name, c);
 }
 
 char *employee::get_name() {
@@ -63,8 +63,9 @@ char *employee::get_name() {
 }
 
 employee replace_bob(employee e) {
-    if (strcmp(e.get_name(), "Bob")) {
+    if (!strcmp(e.get_name(), "Bob")) {
         employee new_guy;
+		new_guy.set_name("new_guy");
         return new_guy;
     }
 }
@@ -87,6 +88,5 @@ int main(int argc, char *argv[]) {
     alice = replace_bob(bob);   // Deep copy by default.
     std::cout << alice.get_name() << std::endl; // Will be uninitialized.
 
-    system("PAUSE");
     return EXIT_SUCCESS;
 }
