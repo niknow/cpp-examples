@@ -11,14 +11,13 @@
    inheritance. */
 
 class base {
-  public:       
+  public:
     int x;      // Visible from inside and outside the class.
     base() { x = 1; y = 2; z = 3; }
   protected:    // Only visible in classes that inherit from base.
     int y;
   private:      // Only visible in base class.
     int z;
-  
 };
 
 // This is a derived class.
@@ -65,7 +64,7 @@ int main(int argc, char *argv[]) {
     return EXIT_SUCCESS;
 }
 
-/*                     S U M M A R Y 
+/*                     S U M M A R Y
 
  Inheritance type     Access in base     Acess in derived
 
