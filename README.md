@@ -30,3 +30,5 @@ This repository contains examples of C/C++ programs that document some feature o
 * [Dynamic Arrays](https://github.com/niknow/cpp-examples/blob/master/cpp/dynamic_allocation/main.cpp)
 * [Default Arguments and Overloading Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/overloading_functions/main.cpp)
 * [Overloading Operators](https://github.com/niknow/cpp-examples/blob/master/cpp/overloading_operators/main.cpp)
+* [Inheritance and Access Modifier](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance/main.cpp)
+* [Multiple Inheritance](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance_multiple/main.cpp)
