@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
     derived d;
 
     d.x = 7;  // Setting a member variable inherited from base 1.
-    d.y = 8;  // Setting a member variable inherited from base 1.
+    d.y = 8;  // Setting a member variable inherited from base 2.
     std::cout << d.myfun() << std::endl;
 
     return EXIT_SUCCESS;
