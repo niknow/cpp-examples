@@ -32,3 +32,4 @@ This repository contains examples of C/C++ programs that document some feature o
 * [Overloading Operators](https://github.com/niknow/cpp-examples/blob/master/cpp/overloading_operators/main.cpp)
 * [Inheritance and Access Modifier](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance/main.cpp)
 * [Multiple Inheritance](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance_multiple/main.cpp)
+* [Multiple Inheritance, Constructors with Parameters and Member Initialization Lists](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance_multiple_constructors/main.cpp)
