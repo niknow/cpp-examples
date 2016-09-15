@@ -33,3 +33,4 @@ This repository contains examples of C/C++ programs that document some feature o
 * [Inheritance and Access Modifier](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance/main.cpp)
 * [Multiple Inheritance](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance_multiple/main.cpp)
 * [Multiple Inheritance, Constructors with Parameters and Member Initialization Lists](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance_multiple_constructors/main.cpp)
+* [Virtual Inheritance](https://github.com/niknow/cpp-examples/blob/master/cpp/virtual_inheritance/main.cpp)
