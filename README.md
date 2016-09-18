@@ -35,3 +35,4 @@ This repository contains examples of C/C++ programs that document some feature o
 * [Multiple Inheritance, Constructors with Parameters and Member Initialization Lists](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_inheritance_multiple_constructors/main.cpp)
 * [Virtual Inheritance](https://github.com/niknow/cpp-examples/blob/master/cpp/virtual_inheritance/main.cpp)
 * [Polymorphism and Virtual Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/polymorphism/main.cpp)
+* [Abstract Classes and Purely Virtual Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/abstract_classes/main.cpp)
