@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
     derived d;  // Since derived is not abstract, we can instantiate an object.
 
     p = &d;    // Points to d now.
-    p->vfun(); // This will call derived.vfun.
+    p->vfun(); // This will call derived::vfun.
 
     return EXIT_SUCCESS;
 }
