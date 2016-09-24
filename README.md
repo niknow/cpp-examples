@@ -36,3 +36,6 @@ This repository contains examples of C/C++ programs that document some feature o
 * [Virtual Inheritance](https://github.com/niknow/cpp-examples/blob/master/cpp/virtual_inheritance/main.cpp)
 * [Polymorphism and Virtual Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/polymorphism/main.cpp)
 * [Abstract Classes and Purely Virtual Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/abstract_classes/main.cpp)
+* [Template Functions](https://github.com/niknow/cpp-examples/blob/master/cpp/templates_functions/main.cpp)
+* [Template Classes](https://github.com/niknow/cpp-examples/blob/master/cpp/templates_classes/main.cpp)
+
