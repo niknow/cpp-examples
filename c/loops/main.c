@@ -21,9 +21,9 @@ int main(int argc, char* argv[])
 
     for (i = 0; i < n; i++) {
         if (i == 1)
-            continue;  /* skips the rest of the loop for i=1*/
+            continue;  /* skips the rest of the iteration for i=1*/
         if (i == 3)
-            break;     /* exits the loop at i=3 */
+            break;     /* exits the entire loop */
     }
 
     /* while: loop with entry condition */
