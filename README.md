@@ -6,7 +6,7 @@ This repository contains examples of C/C++ programs that document some feature o
 * [Hello World](https://github.com/niknow/cpp-examples/blob/master/c/hello_world/main.c)
 * [Hello commented World](https://github.com/niknow/cpp-examples/blob/master/c/comments/main.c)
 * [Variables, Declarations and Data Types](https://github.com/niknow/cpp-examples/blob/master/c/variables/main.c)
-* [If and Switch](https://github.com/niknow/cpp-examples/blob/master/c/if_switch/main.c)
+* [If and Switch](https://github.com/niknow/cpp-examples/blob/master/c/ifswitch/main.c)
 * [Loops](https://github.com/niknow/cpp-examples/blob/master/c/loops/main.c)
 * [Arrays (static)](https://github.com/niknow/cpp-examples/blob/master/c/arrays_static/main.c)
 * [Strings](https://github.com/niknow/cpp-examples/blob/master/c/strings/main.c)
