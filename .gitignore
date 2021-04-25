@@ -41,6 +41,7 @@ ipch/
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
+*.vcxproj.user
 
 # Build results
 [Dd]ebug/
