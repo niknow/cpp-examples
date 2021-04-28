@@ -1,12 +1,13 @@
+#pragma warning(disable : 4996)
 #include <stdio.h>
 #include <stdlib.h>
 
 /* You can read in input from the console. */
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
 
-    /* Old school single character input works like this. This loop 
+    /* Old school single character input works like this. This loop
        echos any char. */
     char c;
     printf("Enter a character and hit 'Return' to mirror it (and a '.' to quit). \n");
@@ -33,6 +34,5 @@ int main(int argc, char *argv[])
     scanf("%i%f", &a, &x);
     printf("You entered: %i and %f\n", a, x);
 
-    system("PAUSE");
     return 0;
 }

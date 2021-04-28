@@ -6,7 +6,7 @@
    or '/', chances are that they are already implemented in that math
    header. */
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     /* Special math functions can be used like this: */
     printf("cos(7) : %f \n", cos(7));
@@ -20,6 +20,5 @@ int main(int argc, char *argv[])
     /* For a complete list of all available functions, simply open the
        math.h. */
 
-    system("PAUSE");
     return 0;
 }
