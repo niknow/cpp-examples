@@ -8,12 +8,12 @@
 int main(int argc, char* argv[])
 {
     FILE* fp;
-    fp = fopen("..\..\c\functions\data.txt", "r");    /* Opens file for read access. */
-    close(fp);                                        /* Closes the file. */
+    fp = fopen("data.txt", "r");    /* Opens file for read access. */
+    fclose(fp);                                        /* Closes the file. */
 
     /* Accessing a file from the disk can go wrong. This opens the file if
        possible and handles a potential failure. */
-    if (!(fp = fopen("..\..\c\functions\data.txt", "r"))) {
+    if (!(fp = fopen("data.txt", "r"))) {
         printf("Cant open file.\n");
         return 1;
     }
@@ -23,14 +23,14 @@ int main(int argc, char* argv[])
     char word1[80], word2[80];
     fscanf(fp, "%s", &word1);
     fscanf(fp, "%s", &word2);
-    printf("%s", word1);         /* Print the result on console. */
+    printf("%s", word1);          /* Print the result on console. */
     printf(" %s\n", word2);
-    close(fp);                   /* Don't forget to close the file. */
+    fclose(fp);                   /* Don't forget to close the file. */
 
     /* You can also write into a file: */
     if (fp = fopen("newdata.txt", "w")) {
         fprintf(fp, "Hello World");
-        close(fp);
+        fclose(fp);
     }
     else {
         printf("Opening file 'newdata.txt' failed.\n");
