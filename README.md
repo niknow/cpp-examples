@@ -23,7 +23,7 @@ This repository contains examples of C/C++ programs that document some feature o
 
 ## C++
 
-* [Hello World](https://github.com/niknow/cpp-examples/blob/master/c/hello_world/main.c)
+* [Hello World](https://github.com/niknow/cpp-examples/blob/master/cpp/hello_world/main.cpp)
 * [Classes and Objects, Stack Example](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_basic_stack/main.cpp)
 * [Static Member Variables, Friend Functions, Employee Example](https://github.com/niknow/cpp-examples/blob/master/cpp/oop_static_friends_employee/main.cpp)
 * [References](https://github.com/niknow/cpp-examples/blob/master/cpp/references/main.cpp)
