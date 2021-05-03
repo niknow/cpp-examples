@@ -17,13 +17,13 @@ public:
     int x;
 };
 
-void set_ob1_x(ob1& o) {   // Even objects can be passed by reference (very efficiently).
-    o.x = 7;  // Changes the object.
+void set_ob1_x(ob1& o) {             // Even objects can be passed by reference (very memory efficient).
+    o.x = 7;                         // Changes the object.
 }
 
-void print_ob1_value(const ob1& o) { // Passed by const reference.
+void print_ob1_value(const ob1& o) { // Passed by const reference (still very memory efficient, but object cannot be changed)
     std::cout << o.x << std::endl;
-    //o.x = 7;  // Would not compile.
+    //o.x = 7;                       // Would not compile.
 }
 
 // Fuctions can also return a reference to something.
@@ -36,23 +36,23 @@ char& replace(int n) {  // Returns a reference to the n-th element of s.
 int main(int argc, char* argv[])
 {
     int a = 7;
-    int& ref = a; // References have to be initialized on declaration.
+    int& ref = a;                  // References have to be initialized on declaration.
     // Now 'ref' behaves exactly like 'a' (this is pretty useless here though).
 
     replace_by_square_pointer(&a); // Notice that '&' is neccessary here.
     std::cout << a << std::endl;
 
-    replace_by_square_ref(a); // This is now a call by reference. No '&' sign here!
+    replace_by_square_ref(a);      // This is now a call by reference. No '&' sign here!
     std::cout << a << std::endl;
 
-    ob1 o;  // Pass objects as references.
+    ob1 o;                         // Pass objects as references.
     set_ob1_x(o);
     print_ob1_value(o);
 
     /* A function that returns a reference has the rare property that it
        is allowed to be on the left hand side of an assigment. */
-    replace(5) = 'X'; // Now replace(5) is a reference to the 5-th element of s.
-    std::cout << s << std::endl; // Gives 'HelloXWorld'.
+    replace(5) = 'X';              // Now replace(5) is a reference to the 5-th element of s.
+    std::cout << s << std::endl;   // Gives 'HelloXWorld'.
 
     return EXIT_SUCCESS;
 }

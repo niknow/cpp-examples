@@ -1,7 +1,7 @@
 #include <cstdlib>
 #include <iostream>
 
-/* Dynamic memory allocation is easier in C++. */
+/* Dynamic memory allocation is easier in C++ than in C. */
 
 int main(int argc, char *argv[]) {
     int n = 5;             // Static memory allocation is done like in C.
@@ -11,9 +11,9 @@ int main(int argc, char *argv[]) {
 
     std::cout << p[0] << " " << p[1] << std::endl;  // gives '7 3'
 
-    delete [] p; // Disallocates the memory dynamically allocated at p.
+    delete [] p;           // Disallocates the memory dynamically allocated at p.
 
-    int *q; // Dynamic allication with exception handling can be done like this.
+    int *q;                // Dynamic allocation with exception handling can be done like this.
     try {
         q = new int [n];
     }

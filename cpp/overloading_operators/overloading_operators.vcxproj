@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{535473F9-DFAD-4122-AC9B-2E4F35162C9A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>09_overloading_operators</ProjectName>
+    <ProjectName>09_oop_overloading_operators</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

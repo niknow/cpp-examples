@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{1987C0CB-2B6D-4BB5-84A8-1EDE03A4932A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>10_oop_polymorphism</ProjectName>
+    <ProjectName>10_oop_polymorphism_virtual</ProjectName>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
