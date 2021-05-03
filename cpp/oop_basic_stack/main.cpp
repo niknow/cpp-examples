@@ -21,11 +21,11 @@ private:                // Private members are only visible inside the class.
 stack::stack()
 {
     std::cout << "Stack created." << std::endl;
-    tos=0; // Automatically uses the namespace of the class.
+    tos = 0; // Automatically uses the namespace of the class.
 }
 
 void stack::push(int i) {
-    if(tos==SIZE) {
+    if (tos == SIZE) {
         std::cout << "Stackoverflow." << std::endl;
         return;     // Leaves the function without returning anything.
     }
@@ -34,7 +34,7 @@ void stack::push(int i) {
 }
 
 int stack::pop() {
-    if(tos==0) {
+    if (tos == 0) {
         std::cout << "Stack empty." << std::endl;
         return 0;
     }
@@ -47,7 +47,7 @@ stack::~stack() {
 }
 
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
     stack s1;   // Instantiate a stack object s1.
 
@@ -64,6 +64,6 @@ int main(int argc, char *argv[])
     return EXIT_SUCCESS;
 }
 
-/* The stacks get destroyed automatically after we leave the scope in which 
+/* The stacks get destroyed automatically after we leave the scope in which
    they were declared. Hence, in this example the destructors of s1 and s2 are
    called after the '}' of 'main' and the messages are only visible then. */

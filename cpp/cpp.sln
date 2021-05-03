@@ -3,33 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "abstract_classes", "abstract_classes\abstract_classes.vcxproj", "{096E5109-78DF-4B81-8401-6EFF24A0C32E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13_oop_abstract_classes", "abstract_classes\abstract_classes.vcxproj", "{096E5109-78DF-4B81-8401-6EFF24A0C32E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_allocation", "dynamic_allocation\dynamic_allocation.vcxproj", "{D1D34B8F-4432-43F9-93C0-820CD13B1BA9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03_dynamic_allocation", "dynamic_allocation\dynamic_allocation.vcxproj", "{D1D34B8F-4432-43F9-93C0-820CD13B1BA9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oop_basic_stack", "oop_basic_stack\oop_basic_stack.vcxproj", "{7F6F1953-2C2A-4184-8B74-0F45461AD57B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04_oop_basic_stack", "oop_basic_stack\oop_basic_stack.vcxproj", "{7F6F1953-2C2A-4184-8B74-0F45461AD57B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oop_inheritance", "oop_inheritance\oop_inheritance.vcxproj", "{DC652C13-826D-4B34-AAA2-61841D5B120A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05_oop_inheritance", "oop_inheritance\oop_inheritance.vcxproj", "{DC652C13-826D-4B34-AAA2-61841D5B120A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oop_inheritance_multiple", "oop_inheritance_multiple\oop_inheritance_multiple.vcxproj", "{2887D9F9-14AA-4141-AE22-84AB40185404}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06_oop_inheritance_multiple", "oop_inheritance_multiple\oop_inheritance_multiple.vcxproj", "{2887D9F9-14AA-4141-AE22-84AB40185404}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oop_inheritance_multiple_constructors", "oop_inheritance_multiple_constructors\oop_inheritance_multiple_constructors.vcxproj", "{5884D0FA-21CC-4BFF-9CCA-2A43A5028391}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07_oop_inheritance_multiple_constructors", "oop_inheritance_multiple_constructors\oop_inheritance_multiple_constructors.vcxproj", "{5884D0FA-21CC-4BFF-9CCA-2A43A5028391}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oop_static_friends_employee", "oop_static_friends_employee\oop_static_friends_employee.vcxproj", "{A5A001D9-A309-4F96-8F06-93D224FD17DB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09_oop_static_friends_employee", "oop_static_friends_employee\oop_static_friends_employee.vcxproj", "{A5A001D9-A309-4F96-8F06-93D224FD17DB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "overloading_functions", "overloading_functions\overloading_functions.vcxproj", "{F8F970F4-43DE-40A5-8A46-2FEDA35103D3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_overloading_functions", "overloading_functions\overloading_functions.vcxproj", "{F8F970F4-43DE-40A5-8A46-2FEDA35103D3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "overloading_operators", "overloading_operators\overloading_operators.vcxproj", "{535473F9-DFAD-4122-AC9B-2E4F35162C9A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11_overloading_operators", "overloading_operators\overloading_operators.vcxproj", "{535473F9-DFAD-4122-AC9B-2E4F35162C9A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polymorphism", "polymorphism\polymorphism.vcxproj", "{1987C0CB-2B6D-4BB5-84A8-1EDE03A4932A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12_oop_polymorphism", "polymorphism\polymorphism.vcxproj", "{1987C0CB-2B6D-4BB5-84A8-1EDE03A4932A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "templates_classes", "templates_classes\templates_classes.vcxproj", "{5E8D75D4-93D3-4876-B542-D0BC4DD14E62}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15_templates_classes", "templates_classes\templates_classes.vcxproj", "{5E8D75D4-93D3-4876-B542-D0BC4DD14E62}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "templates_functions", "templates_functions\templates_functions.vcxproj", "{B9F6DDE4-858C-4B45-9EA9-77FB07018BAE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14_templates_functions", "templates_functions\templates_functions.vcxproj", "{B9F6DDE4-858C-4B45-9EA9-77FB07018BAE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_inheritance", "virtual_inheritance\virtual_inheritance.vcxproj", "{91512F7F-F720-4991-A2BF-9197517A9B99}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08_oop_virtual_inheritance", "virtual_inheritance\virtual_inheritance.vcxproj", "{91512F7F-F720-4991-A2BF-9197517A9B99}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello_world", "hello_world\hello_world.vcxproj", "{1089D041-D12B-4F72-BA0F-BEFF4EE8B560}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01_hello_world", "hello_world\hello_world.vcxproj", "{1089D041-D12B-4F72-BA0F-BEFF4EE8B560}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02_references", "references\references.vcxproj", "{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +153,14 @@ Global
 		{1089D041-D12B-4F72-BA0F-BEFF4EE8B560}.Release|x64.Build.0 = Release|x64
 		{1089D041-D12B-4F72-BA0F-BEFF4EE8B560}.Release|x86.ActiveCfg = Release|Win32
 		{1089D041-D12B-4F72-BA0F-BEFF4EE8B560}.Release|x86.Build.0 = Release|Win32
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Debug|x64.ActiveCfg = Debug|x64
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Debug|x64.Build.0 = Debug|x64
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Debug|x86.Build.0 = Debug|Win32
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Release|x64.ActiveCfg = Release|x64
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Release|x64.Build.0 = Release|x64
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Release|x86.ActiveCfg = Release|Win32
+		{CB102E7E-05EB-4AF4-88C0-5078D211B2B8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

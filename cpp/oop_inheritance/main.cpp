@@ -5,18 +5,18 @@
    implement a fairly general base class and then derive more specialized
    versions of it. The members of the base class can have the three
    access modifiers 'private', 'proteced' and 'public' (private is the default).
-   Inheritance has three types of visibility also called 'private', 
-   'protected' and 'public' (private is default). This example studies 
-   how the different access modifier behave under the different types of 
+   Inheritance has three types of visibility also called 'private',
+   'protected' and 'public' (private is default). This example studies
+   how the different access modifier behave under the different types of
    inheritance. */
 
 class base {
-  public:
-    int x;      // Visible from inside and outside the class.
+public:
+    int x;                      // Visible from inside and outside the class.
     base() { x = 1; y = 2; z = 3; }
-  protected:    // Only visible in classes that inherit from base.
+protected:                      // Only visible in classes that inherit from base.
     int y;
-  private:      // Only visible in base class.
+private:                        // Only visible in base class.
     int z;
 };
 
@@ -25,20 +25,20 @@ class dpub : public base {      // Inheritance of type 'public'.
     // x is public.
     // y is protected.
     // z is not accessible from dpub.
-  public:
-    void showx() {std::cout << "dpub.x: " << x << std::endl; }
-    void showy() {std::cout << "dpub.y: " << y << std::endl; }
+public:
+    void showx() { std::cout << "dpub.x: " << x << std::endl; }
+    void showy() { std::cout << "dpub.y: " << y << std::endl; }
 };
 
 class dprot : protected base {  // Inheritance of type 'protected'.
   // x is protected.
   // y is protected.
   // z is not accessible from dprot.
-  public:
-    void incy() { y++; }  // Derived class has access to base class' protected members.
+public:
+    void incy() { y++; }        // Derived class has access to base class' protected members.
 };
 
-class dpriv : private base {   // Inheritance of type 'private' (this is the default if nothing is specified).
+class dpriv : private base {    // Inheritance of type 'private' (this is the default if nothing is specified).
     // x is private.
     // y private.
     // z is not accessible from dpriv.
@@ -46,7 +46,7 @@ class dpriv : private base {   // Inheritance of type 'private' (this is the def
 };
 
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
     base b;
     dpub d1;
     dprot d2;
@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
 
     std::cout << "b.x = " << b.x << std::endl;  // b.y or b.z would cause an error.
 
-    d1.showx();  // Can all be called from outside the class.
+    d1.showx();                                 // Can all be called from outside the class.
     d1.showy();
 
     d2.incy();
