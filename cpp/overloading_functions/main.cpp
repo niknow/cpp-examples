@@ -6,6 +6,7 @@
 
 // Default arguments can be specified after positional arguments like this.
 int add_inc(int a, int b = 5) {
+    return a + b;
 }
 
 // When separating declaration from definition, default arguments have to be set in declaration only
