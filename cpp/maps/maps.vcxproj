@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{02138a6e-bb0e-439e-bad1-2bfe828d99dc}</ProjectGuid>
-    <RootNamespace>vectors</RootNamespace>
+    <ProjectGuid>{8d25abf1-e37c-434b-9bfe-f4478cf79c05}</ProjectGuid>
+    <RootNamespace>maps</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>18_stl_vectors</ProjectName>
+    <ProjectName>19_stl_maps</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

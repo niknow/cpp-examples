@@ -18,6 +18,9 @@ int main(int argc, char* argv[])
     // elements can also be read using []
     std::cout << x[0] << " " << x[1] << " " << x[2] << std::endl;
 
+    // elements can be accessed also using at() which checks the bounds
+    std::cout << x.at(0) << " " << x.at(1) << " " << x.at(2) << std::endl;
+
     std::vector<int> y;         // declare a vector of unspecified size
     y.push_back(2);             // add elements at the end of the vector
     y.push_back(3);
