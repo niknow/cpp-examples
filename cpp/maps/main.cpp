@@ -8,7 +8,7 @@
 
 int main(int argc, char* argv[])
 {
-    std::map<std::string, int> m;                            // declares an empty map
+    std::map<std::string, int> m;                           // declares an empty map
 
     std::pair<std::string, int> p("foo", 1);                // a key-value pair can be created like this
     m.insert(p);                                            // inserts p into the map
