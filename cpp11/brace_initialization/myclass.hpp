@@ -15,7 +15,8 @@ public:
         p++;
         y_ = *p;
     }
-
-    
-
 };
+
+MyClass f() {
+    return { 8, 9 };    // this calls the initializer list constructor of the return type
+}
