@@ -65,6 +65,12 @@ int main(int argc, char* argv[])
     for (int i = 0; i < x.size(); i++)
         std::cout << x[i] << " ";
     std::cout << std::endl;
+
+    // advanced initialization
+    std::vector<int> w(3, 7);   // declares a vector of size 3 and initializes all entries with 7
+    std::vector<int> u(w);      // declares a vector that is a copy of w
+    std::vector<std::vector<int>> z(3, std::vector<int>(4)); // declares a vector of length 3 of vectors of length 4
+    z[1][2] = 17;   // access like this
     
     return EXIT_SUCCESS;
 }
