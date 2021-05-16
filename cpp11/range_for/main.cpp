@@ -39,8 +39,8 @@ int main(int argc, char* argv[]) {
     for (auto&& p : x)      // will not compile with just one '&'
         p = !p;             // flips true and false
     /* the auto&& is needed here because in vector<bool> the booleans are not stored in a byte, but instead in a bit
-       to be more memory efficient. Thus, when dereferenced it returns a proxy iterator, which is a reference
-       to a reference. Notice that
+       to be more memory efficient. Thus, when dereferenced it returns a proxy iterator, which is an rvalue reference.
+       Notice that
        bool& b = x[0];  would not compile
        This is considered to be a mistake in the STL.
     */
