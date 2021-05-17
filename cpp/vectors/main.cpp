@@ -71,6 +71,14 @@ int main(int argc, char* argv[])
     std::vector<int> u(w);      // declares a vector that is a copy of w
     std::vector<std::vector<int>> z(3, std::vector<int>(4)); // declares a vector of length 3 of vectors of length 4
     z[1][2] = 17;   // access like this
+
+    // const vectors
+    const std::vector<int> mycv = {1, 2, 3};    // size of the vector is const and entries cannot be modified
     
     return EXIT_SUCCESS;
 }
+
+/*
+    FURTHER READING
+    Const Vectors: https://stackoverflow.com/questions/17313062/vector-of-const-objects-giving-compile-error
+*/
