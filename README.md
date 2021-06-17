@@ -52,6 +52,10 @@ This repository contains examples of C/C++ programs that document some feature o
 2. [Type Inference (auto, decltype)](https://github.com/niknow/cpp-examples/blob/master/cpp11/auto_type_inference/main.cpp)
 3. [Range based for loops](https://github.com/niknow/cpp-examples/blob/master/cpp11/range_for/main.cpp)
 4. [Lambda functions](https://github.com/niknow/cpp-examples/blob/master/cpp11/lambdas/main.cpp)
+5. [Trailing Returns](https://github.com/niknow/cpp-examples/blob/master/cpp11/trailing_returns/main.cpp)
+6. [Override and Final](https://github.com/niknow/cpp-examples/tree/master/cpp11/override)
+7. [Nullptr](https://github.com/niknow/cpp-examples/blob/master/cpp11/nullptr/main.cpp)
+8. [Enum class](https://github.com/niknow/cpp-examples/blob/master/cpp11/enum/main.cpp)
 
 
 ## Further Ressources
